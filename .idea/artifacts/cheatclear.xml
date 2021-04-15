@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cheatclear">
+    <output-path>$PROJECT_DIR$/out/artifacts/cheatclear</output-path>
+    <root id="archive" name="cheatclear.jar">
+      <element id="module-output" name="CheatClear" />
+    </root>
+  </artifact>
+</component>

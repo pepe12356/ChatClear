@@ -1,0 +1,7 @@
+name: ChatClear
+main: Main
+version: 0.1
+author: Peti
+
+commands:
+  cc:
