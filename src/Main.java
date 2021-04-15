@@ -20,7 +20,7 @@ public class Main extends JavaPlugin implements CommandExecutor {
        Player player = (Player) sender;
        if (label.equalsIgnoreCase("cc"))
        if (!player.hasPermission("cc.admin")) {
-           player.sendMessage("nincs ehhez jogod!");
+           player.sendMessage("§cnincs ehhez jogod!");
        }else {
            for (int i= 0; i < 105; ++i) {
                for (Player all : Bukkit.getOnlinePlayers()) {
@@ -29,7 +29,7 @@ public class Main extends JavaPlugin implements CommandExecutor {
                 }
                }
            }
-           Bukkit.broadcastMessage("Sikeren törölve lett a chat" + player.getName() + "által!");
+           Bukkit.broadcastMessage("§cSikeren törölve lett a chat" + player.getName() + "által!");
        }
        return false;
    }
